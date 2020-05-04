@@ -1,0 +1,21 @@
+{
+    "Debug": false,
+	"Routes": [
+		{
+			"Retries": 5,
+			"ServeNodes": [
+				"ws://:8080"
+			],
+			"ChainNodes": [
+			]
+		},
+    	{
+    		"Retries": 5,
+    		"ServeNodes": [
+		        "ws://:80"
+		    ],
+		    "ChainNodes": [
+		    ]
+    	}
+	]
+}
