@@ -4,18 +4,34 @@
 		{
 			"Retries": 5,
 			"ServeNodes": [
-				"ws://:8080"
+				"ws://:71"
 			],
 			"ChainNodes": [
 			]
 		},
-    	{
-    		"Retries": 5,
-    		"ServeNodes": [
-		        "ws://:80"
+		{
+			"Retries": 5,
+			"ServeNodes": [
+				"ws://:72"
+			],
+			"ChainNodes": [
+			]
+		},
+		{
+			"Retries": 5,
+			"ServeNodes": [
+				"ws://:73"
+			],
+			"ChainNodes": [
+			]
+		},
+    		{
+    			"Retries": 5,
+    			"ServeNodes": [
+		        "ws://:74"
 		    ],
 		    "ChainNodes": [
 		    ]
-    	}
+    		}
 	]
 }
