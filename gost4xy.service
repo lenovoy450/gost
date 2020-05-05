@@ -7,7 +7,7 @@ Type=simple
 User=root
 Group=root
 WorkingDirectory=/root/
-ExecStart=/usr/local/sbin/gost -C /root/gost4xy.json
+ExecStart=/usr/local/sbin/gost4xy -C /root/gost4xy.json
 Restart=always
 LimitNOFILE=512000
 [Install]
